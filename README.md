@@ -1,4 +1,4 @@
-## ts-boilerplate-browser
+## ts-boilerplate-node
 
 My boilerplate template for starting new projects targeting node.js.
 It uses pnpm, Typescript, vitest, and ESlint with opinionated rules.
