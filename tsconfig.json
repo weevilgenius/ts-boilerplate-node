@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext"],
+    "types": ["node", "vitest/globals"],
+    "noEmit": true, // tsup handles compiling
+
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src",
+    "tests",
+    "*.config.ts"
+  ]
+}
