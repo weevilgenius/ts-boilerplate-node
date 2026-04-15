@@ -45,7 +45,7 @@ export default defineConfig(
       sourceType: "module",
 
       globals: {
-        ...globals.es2021,
+        ...globals.es2022,
         ...globals.node,
       },
     },
