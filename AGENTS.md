@@ -1,12 +1,13 @@
-# Node.js Project Boilerplate
+# AGENTS.md
+
+This file provides guidance to AI coding agents when working with code
+in this repository.
+
+## Project Overview
 
 This is boilerplate used for starting a new project targeting node.js. It will be cloned
 into the new project and represents best practices for a Typescript project. It uses pnpm,
 Typescript, vitest, and ESlint with opinionated rules.
-
-## Architecture
-
-[PLACEHOLDER: Architecture details to be added upon cloning]
 
 ## Development Commands
 

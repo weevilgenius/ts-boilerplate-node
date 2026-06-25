@@ -7,13 +7,9 @@ To use it, either select it as a template when starting a new project in GitHub
 or do this:
 
 ```
-git clone https://github.com/weevilgenius/ts-boilerplate-node.git my-new-project
+git clone --single-branch -b main https://github.com/weevilgenius/ts-boilerplate-node.git my-new-project
+
+# initialize the project
 cd my-new-project
-rm -rf .git
-git init
-git branch -M main
-pnpm install
-# edit files as needed
-git add .
-git commit -m "initial commit"
+./bootstrap.sh
 ```
