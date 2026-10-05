@@ -12,7 +12,7 @@
     "build": "tsup",
     "check": "pnpm typecheck && pnpm lint && pnpm test"
   },
-  "packageManager": "pnpm@12.8.1",
+  "packageManager": "pnpm@12.9.1",
   "private": true,
   "type": "module",
   "engines": {
