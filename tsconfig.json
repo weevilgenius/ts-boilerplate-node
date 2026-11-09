@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "lib": ["ESNext"],
     "types": ["node", "vitest/globals"],
-    "noEmit": true, // tsup handles compiling
+    "noEmit": true, // emit is configured in tsconfig.build.json
+    "rewriteRelativeImportExtensions": true, // import './foo.ts' emits './foo.js'
 
     "strict": true,
     "strictNullChecks": true,
