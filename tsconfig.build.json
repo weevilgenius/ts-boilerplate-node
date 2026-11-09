@@ -1,0 +1,11 @@
+// compiles src/ to dist/ for `pnpm run build`; tsconfig.json covers type-checking everything
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["src"]
+}

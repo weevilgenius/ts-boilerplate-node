@@ -9,7 +9,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "build": "tsup",
+    "build": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\" && tsc -p tsconfig.build.json",
     "check": "pnpm typecheck && pnpm lint && pnpm test"
   },
   "packageManager": "pnpm@12.18.0",
@@ -33,7 +33,6 @@
     "eslint-plugin-unused-imports": "^4.4.1",
     "globals": "^17.14.0",
     "jiti": "^2.7.0",
-    "tsup": "^9.0.0",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-eslint": "^8.72.1",
     "vitest": "^5.1.0"
