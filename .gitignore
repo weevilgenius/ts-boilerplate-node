@@ -37,8 +37,5 @@ node_modules/
 # transpilation output directories
 dist/
 
-# claude code
-.claude/
-
 # unit test coverage reports
 coverage/
